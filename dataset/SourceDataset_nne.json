@@ -1,0 +1,128 @@
+{
+	"name": "SourceDataset_nne",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "data_final.csv",
+				"container": "gold"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "DrugType",
+				"type": "String"
+			},
+			{
+				"name": "MoleculeType",
+				"type": "String"
+			},
+			{
+				"name": "DrugId",
+				"type": "String"
+			},
+			{
+				"name": "DrugName",
+				"type": "String"
+			},
+			{
+				"name": "GenericName",
+				"type": "String"
+			},
+			{
+				"name": "BrandName",
+				"type": "String"
+			},
+			{
+				"name": "CompanyName",
+				"type": "String"
+			},
+			{
+				"name": "TherapyArea",
+				"type": "String"
+			},
+			{
+				"name": "Indication",
+				"type": "String"
+			},
+			{
+				"name": "DevelopmentStage",
+				"type": "String"
+			},
+			{
+				"name": "DrugGeography",
+				"type": "String"
+			},
+			{
+				"name": "DrugGeography_2",
+				"type": "String"
+			},
+			{
+				"name": "MarketingStatus",
+				"type": "String"
+			},
+			{
+				"name": "DosageForm",
+				"type": "String"
+			},
+			{
+				"name": "RouteofAdmin",
+				"type": "String"
+			},
+			{
+				"name": "Strength",
+				"type": "String"
+			},
+			{
+				"name": "LaunchDate",
+				"type": "String"
+			},
+			{
+				"name": "ApprovalDateRegulatory",
+				"type": "String"
+			},
+			{
+				"name": "ApplicationType",
+				"type": "String"
+			},
+			{
+				"name": "ApprovalNumber",
+				"type": "String"
+			},
+			{
+				"name": "Identifica��o",
+				"type": "String"
+			},
+			{
+				"name": "combination",
+				"type": "String"
+			},
+			{
+				"name": "Mod_Release",
+				"type": "String"
+			},
+			{
+				"name": "Orodispersible",
+				"type": "String"
+			},
+			{
+				"name": "ATCClassification",
+				"type": "String"
+			},
+			{
+				"name": "Target",
+				"type": "String"
+			}
+		]
+	}
+}
